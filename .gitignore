@@ -1,0 +1,99 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / Editors
+# =========================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+test-results/
+
+# =========================
+# Linters / Type checking
+# =========================
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs / Temporary files
+# =========================
+*.log
+*.tmp
+*.temp
+*.bak
+.cache/
+tmp/
+temp/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Local databases
+# =========================
+*.sqlite3
+*.db
+
+# =========================
+# Secrets / Credentials
+# =========================
+*.pem
+*.key
+credentials.json
+secrets.json
